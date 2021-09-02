@@ -13,7 +13,7 @@ const ContainerConteudo = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
+         
         padding: 2em;
     }
 
@@ -109,6 +109,7 @@ const ContainerConteudo = styled.div`
     .chat-message {
         display: flex;
         flex-direction: row;
+        align-items: center;
 
         font-size: .9em;
         margin: .4em .2em;
